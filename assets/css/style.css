@@ -94,10 +94,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #7a6960;
   text-decoration: none;
 }
-
+.logo_color{
+  color: #7a6960;
+}
+.logo_color_mod{
+  color: #fff;
+}
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -137,14 +141,20 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
-  color: #4e4039;
+  font-size: 30px;
   white-space: nowrap;
   transition: 0.3s;
 }
+.navbar_white{
+  color: #fff;
+}
+.navbar_other{
+  color: #4e4039;
+}
+
 
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 24px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -345,7 +355,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-size: 80px;
   font-weight: 700;
   line-height: 56px;
-  color: #4e4039;
+  
 }
 
 #hero h2 {
