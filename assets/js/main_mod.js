@@ -1,7 +1,7 @@
 $(function(){
         $(window).scroll(function(){
          if($(this).scrollTop() > 50) {
-          $('#header').addClass('active');
+          $('#header').addClass('active_');
 
           $('.navbar a').addClass('navbar_white');
           $('.navbar a').removeClass('navbar_other');
@@ -9,7 +9,7 @@ $(function(){
           $('#header .logo h1 a').removeClass('logo_color');
           $('#header .logo h1 a').addClass('logo_color_mod');
          } else {
-          $('#header').removeClass('active');
+          $('#header').removeClass('active_');
 
           $('.navbar a').removeClass('navbar_white');
           $('.navbar a').addClass('navbar_other');

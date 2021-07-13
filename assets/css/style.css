@@ -8,6 +8,23 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.active_ {
+  background-color: rgba(34,34,34,0.8);
+}
+.logo_color{
+  color: #7a6960; 
+}
+.logo_color_mod{
+  color: #fff;
+}
+
+.navbar_white{
+  color: #fff;
+}
+.navbar_other{
+  color: #4e4039;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
@@ -81,9 +98,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.8);
   
 }
-.active {
-  background-color: rgba(34,34,34,0.8);
-}
+
 
 #header .logo h1 {
   font-size: 30px;
@@ -96,12 +111,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo h1 a, #header .logo h1 a:hover {
   text-decoration: none;
 }
-.logo_color{
-  color: #7a6960;
-}
-.logo_color_mod{
-  color: #fff;
-}
+
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -120,7 +130,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 */
 
 
-.  {
+. {
   padding: 0;
 }
 
@@ -145,12 +155,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   white-space: nowrap;
   transition: 0.3s;
 }
-.navbar_white{
-  color: #fff;
-}
-.navbar_other{
-  color: #4e4039;
-}
+
 
 
 .navbar a i, .navbar a:focus i {
@@ -279,6 +284,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
 }
 
+
 .navbar-mobile ul {
   display: block;
   position: absolute;
@@ -291,6 +297,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   overflow-y: auto;
   transition: 0.3s;
 }
+
 
 .navbar-mobile a {
   padding: 10px 20px;
@@ -337,6 +344,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1134,6 +1142,7 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
+
 
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
