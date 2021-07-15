@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center; 
     align-items: center; 
+    margin-top: 30vh;
 }
 .pl1{
   justify-content: space-around;
