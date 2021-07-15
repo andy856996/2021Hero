@@ -8,12 +8,23 @@
   right: 0;
   top: 35vh;
   font-family:Microsoft JhengHei;
-  font-size:100px;
+  font-size:7rem;
   display: flex;
   justify-content: center; 
   align-items: center; 
   text-align: center;
 
+}
+@media(max-width: 1200px) {
+  .ml4 .letters {
+   font-size:3rem;
+  }
+}
+
+@media (min-width: 600px){
+  .ml4 .letters {
+   font-size: 5rem;
+  }
 }
 .container_NTTU_Hero{
   background-color: #d5e1a3;
