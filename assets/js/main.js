@@ -4,9 +4,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+(function(a) {
+   a(window).load(function() {
+      a("#preloader").delay(1000).fadeOut(800);
+    });
+})(jQuery);
 
 (function() {
- 
   "use strict";
 
   /**
@@ -243,4 +247,4 @@
     });
   });
 
-});
+})()
