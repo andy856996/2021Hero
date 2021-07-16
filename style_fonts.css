@@ -43,46 +43,48 @@
 
 .patterns_text {
   height: 100vh;
+  background-color: black;
 }
 
 
 
 ._text text {
   font-family: Microsoft JhengHei;
-  letter-spacing: 10px;
-  stroke: black;
-  font-size: 2.5em;
+  letter-spacing: 8px;
+  stroke:   #84C1FF;
+  font-size: 4em;
   font-weight: 700;
   stroke-width: 3;
- 
   animation: textAnimate 3s infinite alternate;
-  
 }
 
 @keyframes textAnimate {
   0% {
     stroke-dasharray: 0 50%;
     stroke-dashoffset:  20%;
-    fill:hsl(189, 68%, 75%)
+    fill:white/*第一項可以調整顏色*/
 
   }
   
   100% {
     stroke-dasharray: 50% 0;
     stroke-dashoffstet: -20%;
-    fill: hsla(189, 68%, 75%,0%)
+    fill: black;
   }
   
 }
 @media(max-width: 1200px) {
-  ._text text {
+._text text {
    font-size:2rem;
    stroke-width: 1;
+  }
+  ._text2 text{
+    font-size:1rem;
   }
 }
 
 @media (min-width: 600px){
-  ._text text {
+._text text {
    font-size: 4rem;
   }
 }
