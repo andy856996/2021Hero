@@ -63,7 +63,7 @@
   0% {
     stroke-dasharray: 0 100%;
     stroke-dashoffset:  100%;
-    fill:white/*第一項可以調整顏色*/
+    fill: #BEBEBE/*第一項可以調整顏色*/
 
   }
   100% {
