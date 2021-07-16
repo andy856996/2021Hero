@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   top: 35vh;
-  font-family:Microsoft JhengHei;
+  font-family:Arial;
   font-size:7rem;
   display: flex;
   justify-content: center; 
@@ -43,29 +43,29 @@
 
 .patterns_text {
   height: 100vh;
-  background-color: black;
+  background-color:black ;
 }
 
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 ._text text {
-  font-family: Microsoft JhengHei;
-  letter-spacing: 8px;
+  font-family: 'Noto Sans TC', sans-serif;
+  letter-spacing: 10 px;
   stroke:   #84C1FF;
   font-size: 4em;
-  font-weight: 700;
-  stroke-width: 3;
-  animation: textAnimate 3s infinite alternate;
+  font-weight: 500;
+  stroke-width: 2;
+  animation: textAnimate 5s infinite alternate;
 }
 
 @keyframes textAnimate {
   0% {
-    stroke-dasharray: 0 50%;
-    stroke-dashoffset:  20%;
+    stroke-dasharray: 0 100%;
+    stroke-dashoffset:  100%;
     fill:white/*第一項可以調整顏色*/
 
   }
-  
   100% {
     stroke-dasharray: 50% 0;
     stroke-dashoffstet: -20%;
