@@ -1,7 +1,7 @@
 .ml4 {
   font-weight: 100;
   font-size: 6em;
-}
+} 
 .ml4 .letters {
   position: absolute;
   left: 0;
@@ -38,3 +38,52 @@
   width: 100%;
   z-index:-9999;
 }
+
+
+
+.patterns_text {
+  height: 100vh;
+}
+
+
+
+._text text {
+  font-family: Microsoft JhengHei;
+  letter-spacing: 10px;
+  stroke: black;
+  font-size: 3em;
+  font-weight: 700;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(189, 68%, 75%)
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%,0%)
+  }
+  
+}
+@media(max-width: 1200px) {
+  ._text text {
+   font-size:2rem;
+   stroke-width: 1;
+  }
+}
+
+@media (min-width: 600px){
+  ._text text {
+   font-size: 4rem;
+  }
+}
+
