@@ -43,7 +43,7 @@
 
 .patterns_text {
   height: 100vh;
-  background-color:black ;
+  background-color:#2e4057 ;
 }
 
 
@@ -52,10 +52,10 @@
 ._text text {
   font-family: 'Noto Sans TC', sans-serif;
   letter-spacing: 10 px;
-  stroke:   #84C1FF;
+  stroke:   #ffa5d8;
   font-size: 4em;
   font-weight: 500;
-  stroke-width: 2;
+  stroke-width: 1;
   animation: textAnimate 5s infinite alternate;
 }
 
@@ -63,7 +63,7 @@
   0% {
     stroke-dasharray: 0 100%;
     stroke-dashoffset:  100%;
-    fill: #BEBEBE/*第一項可以調整顏色*/
+    fill:hsl(189, 68%, 75%)/*第一項可以調整顏色*/
 
   }
   100% {
