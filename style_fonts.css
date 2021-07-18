@@ -59,7 +59,7 @@
   /*font-family: Lora;*/
   letter-spacing: 10 px;
   stroke:   #ffa5d8;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 500;
   stroke-width: 1;
   animation: textAnimate 5s infinite alternate;
@@ -69,7 +69,7 @@
   0% {
     stroke-dasharray: 0 100%;
     stroke-dashoffset:  100%;
-    fill:black/*第一項可以調整顏色*/
+    fill:white;/*第一項可以調整顏色*/
 
   }
   100% {
@@ -91,7 +91,7 @@
 
 @media (min-width: 600px){
 ._text text {
-   font-size: 4rem;
+   font-size: 3rem;
   }
 }
 
