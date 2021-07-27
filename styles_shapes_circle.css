@@ -57,23 +57,11 @@
 @media (min-width: 419px) {
   .content_shape h1 {
     font-size: 100px;
-    font-size: calc((0.0989119683 * 50vw + (58.5558852621px)));
+    font-size: calc((0.0989119683 * 10vw + (58.5558852621px)));
   }
 }
 @media (min-width: 1430px) {
   .content_shape h1 {
-    font-size: 200px;
-  }
-}
-
-@media (min-width: 419px) {
-  .content_shape2 h1 {
     font-size: 100px;
-    font-size: calc((0.0989119683 * 50vw + (58.5558852621px)));
-  }
-}
-@media (min-width: 1430px) {
-  .content_shape2 h1 {
-    font-size: 200px;
   }
 }
