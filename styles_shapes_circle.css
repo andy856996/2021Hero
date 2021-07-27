@@ -1,6 +1,6 @@
 .shapes_circle_div {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   width: 100vw;
   background: #2128bd;
   overflow: hidden;
@@ -61,13 +61,21 @@
   }
   .shapes_circle_div {
     background: #2128bd;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
   }
 }
 @media (min-width: 1430px) {
   .content_shape h1 {
     font-size: 100px;
   }
-    .shapes_circle_div {
+  .shapes_circle_div {
     background: #fff;
+    position: relative;
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
   }
 }
