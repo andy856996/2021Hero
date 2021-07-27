@@ -50,26 +50,26 @@
 }
 
 .content_shape h1 {
-  font-size: 50px;
+  font-size: 10vh;
   color: #000;
   margin: 0;
   text-align: center;
 }
 @media (min-width: 419px) {
   .content_shape h1 {
-    font-size: calc((0.0989119683 * 50vw + (58.5558852621px)));
+    font-size: 10vh;
   }
   .shapes_circle_div {
     background: #2128bd;
     position: relative;
-    height: 100vh;
+    height: 1000vh;
     width: 100vw;
     overflow: hidden;
   }
 }
 @media (min-width: 1430px) {
   .content_shape h1 {
-    font-size: 100px;
+    font-size: 10vh;
   }
   .shapes_circle_div {
     background: #fff;
