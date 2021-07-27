@@ -49,6 +49,7 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  user-select: none;
 }
 /*改key背景*/
 

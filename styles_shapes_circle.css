@@ -1,10 +1,11 @@
 .shapes_circle_div {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   width: 100vw;
-  background: #2128bd;
+  background: #fff;
   overflow: hidden;
 }
+/*#2128bd*/
 .blank_space{
   height: 10vh;
 }
@@ -49,19 +50,24 @@
 }
 
 .content_shape h1 {
-  font-size: 70px;
+  font-size: 50px;
   color: #000;
   margin: 0;
   text-align: center;
 }
 @media (min-width: 419px) {
   .content_shape h1 {
-    font-size: 100px;
     font-size: calc((0.0989119683 * 50vw + (58.5558852621px)));
+  }
+  .shapes_circle_div {
+    background: #2128bd;
   }
 }
 @media (min-width: 1430px) {
   .content_shape h1 {
     font-size: 100px;
+  }
+    .shapes_circle_div {
+    background: #fff;
   }
 }
