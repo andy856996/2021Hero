@@ -1,6 +1,6 @@
 .shapes_circle_div {
   position: relative;
-  height: 95vh;
+  height: 100vh;
   width: 100vw;
   background: #2128bd;
   overflow: hidden;
@@ -37,28 +37,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  width: 100vw;
-  background: #fff;
-  mix-blend-mode: screen;
-   font-family: Montserrat, sans-serif;
-  font-weight: 900;
-  
-}
-.content_shape2 {
-  top: 150%;
-  left: 0;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50vh;
+  height: 100vh;
   width: 100vw;
   background: #fff;
   mix-blend-mode: screen;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
+  
 }
+
 .content_shape h1 {
   font-size: 100px;
   color: #000;
