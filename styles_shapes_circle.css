@@ -67,7 +67,7 @@
     overflow: hidden;
   }
 }
-@media (min-width: 1430px) {
+@media (min-width: 1230px) {
   .content_shape h1 {
     font-size: 10vh;
   }
