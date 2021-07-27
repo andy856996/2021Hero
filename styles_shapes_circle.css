@@ -1,6 +1,6 @@
 .shapes_circle_div {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background: #2128bd;
   overflow: hidden;
@@ -62,7 +62,7 @@
   .shapes_circle_div {
     background: #2128bd;
     position: relative;
-    height: 1000vh;
+    height: 90vh;
     width: 100vw;
     overflow: hidden;
   }
@@ -74,7 +74,7 @@
   .shapes_circle_div {
     background: #fff;
     position: relative;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     overflow: hidden;
   }
