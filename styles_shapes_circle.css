@@ -1,11 +1,13 @@
 .shapes_circle_div {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   background: #2128bd;
   overflow: hidden;
 }
-
+.blank_space{
+  height: 10vh;
+}
 .shape_circle {
   will-change: transform;
   position: absolute;
@@ -43,7 +45,6 @@
   mix-blend-mode: screen;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
-  
 }
 
 .content_shape h1 {
