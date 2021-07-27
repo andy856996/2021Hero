@@ -7,7 +7,13 @@
   color: #241623;
   background: #eef2f4;
 }*/
-
+.flow_ourteam_div_bg{
+  clear: both;
+  background-color:  #EBC57C;
+  height: 50%px;
+  text-align: center;
+  line-height: 80px;
+}
 .flow_ourteam_div{
   font-family: "Inter", sans-serif;
   max-width: 55rem;
@@ -16,7 +22,7 @@
 }
 
 .flow_ourteam_div h1 {
-  font-size: 3rem;;
+  font-size: 2rem;;
 }
 
 .flow_ourteam_div p {
