@@ -45,6 +45,7 @@
   mix-blend-mode: screen;
   font-family: Montserrat, sans-serif;
   font-weight: 900;
+  user-select: none;
 }
 
 .content_shape h1 {
