@@ -1,7 +1,7 @@
 /*  table-outbox
 ------------------------------------- */
 .table_outbox_Activity_process {
-  width: 80vh;
+  width: 40rem;
   margin: 50px auto; /* 添加外距 */
   margin-top: 15vh;
   box-shadow: 0px 35px 50px rgba(27, 31, 49, 0.1); /* 添加表格陰影 */
@@ -15,6 +15,7 @@
   border-collapse: collapse; /* 表格邊框合併 */
   width: 100%; /* 寬度 100% */
   background-color: white; /* 背景白色 */
+  margin: 0px auto;
 }
 
 .Activity_process_table thead th {
