@@ -153,4 +153,5 @@
   position: relative;
   font-family: system-ui, sans-serif;
   text-align: center;
+  user-select: none;
 }
