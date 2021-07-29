@@ -7,7 +7,6 @@ document.body.addEventListener("mousemove", evt => {
   {
       // JavaScript here 
       // 當視窗寬度小於800px時執行
-    
     setTimeout(function(){
         if(mo==3){
           mo=1;

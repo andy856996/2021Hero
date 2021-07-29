@@ -80,3 +80,38 @@
     text-align: center;
   }
 }
+
+
+.block_under_the_circle{
+  width: 100%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.block_under_the_circle h1{
+
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  text-align: center;
+  font-size: 2em;
+}
+.block_under_the_circle_title{
+  width: 100%;
+}
+.block_under_the_circle_content{
+  vertical-align:text-top;
+  display: inline-block;
+  width: 30%;
+}
+@media (max-width: 800px) {
+  .block_under_the_circle_content{
+    display: inline-block;
+    width: 100%;
+  }
+}
+.block_under_the_circle_content h2{
+  font-weight: 700;
+  font-size: 1.25em;
+}
+.block_under_the_circle_content p{
+  font-size: 1em;
+}
