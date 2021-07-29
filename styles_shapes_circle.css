@@ -107,17 +107,7 @@
   width: 30%;
   font-family: "Open Sans","Noto Sans TC",sans-serif;
 }
-@media (max-width: 800px) {
-  .block_under_the_circle_content{
-    display: inline-block;
-    width: 100%;
-    padding-right: 5vw;
-    padding-left: 5vw;
-  }
-  .h1_hover {
-    font-weight: 100;
-  }
-}
+
 .block_under_the_circle_content h2{
   font-weight: 700;
   font-size: 1.25em;
@@ -157,4 +147,15 @@
   font-family: system-ui, sans-serif;
   text-align: center;
   user-select: none;
+}
+@media (max-width: 800px) {
+  .block_under_the_circle_content{
+    display: inline-block;
+    width: 100%;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+  .h1_hover {
+    font-weight: 100;
+  }
 }
