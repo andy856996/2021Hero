@@ -94,19 +94,23 @@
   font-size: 2em;
 }*/
 .block_under_the_circle_title{
-  text-align: center;
-  z-index: -1;
+  /*text-align: center;*/
+  /*z-index: -1;*/
   padding-top: 5vh;
+  padding-bottom:5vh ;
 }
 .block_under_the_circle_content{
   vertical-align:text-top;
   display: inline-block;
   width: 30%;
+  font-family: "Open Sans","Noto Sans TC",sans-serif;
 }
 @media (max-width: 800px) {
   .block_under_the_circle_content{
     display: inline-block;
     width: 100%;
+    padding-right: 5vw;
+    padding-left: 5vw;
   }
 }
 .block_under_the_circle_content h2{
@@ -134,14 +138,16 @@
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background:#FF8F59;
+  background:#FFE6D9;
   z-index: -1;
   transition: transform .3s ease;
 }
 
 .h1_hover {
+  font-size: 5vw;
   margin:0px auto;
-  min-width: 20%;
+  width: auto;
   position: relative;
   font-family: system-ui, sans-serif;
+  text-align: center;
 }
