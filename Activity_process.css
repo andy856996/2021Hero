@@ -24,8 +24,9 @@
 }
 
 .Activity_process_table td{
-  text-align: left; /* 文字置中顯示 */
+  text-align: center; /* 文字置中顯示 */
   padding:30px ; /* 添加內距 */
+  font-size: 1.5em;
 }
 
 
