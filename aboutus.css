@@ -50,7 +50,7 @@
 
 .typewriter::before {
   content: "";
-  animation: typing 5s infinite;
+  animation: typing 7s infinite;
 }
 
 .typewriter::after {
