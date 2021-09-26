@@ -74,10 +74,8 @@
   }
   
   @keyframes sequencePopup {
-    0%, 100% { content: "developer"; }
-    25% { content: "writer"; }
-    50% { content: "reader"; }
-    75% { content: "human"; }
+    0%, 100% { content: "2021工作人員"; }
+    50% { content: "關於我們"; }
   }
 
   .typewriter::before {
