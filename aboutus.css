@@ -68,7 +68,7 @@
 }
 
 
-@media (prefers-reduced-motion) {
+/*@media (prefers-reduced-motion) {
   .typewriter::after {
     animation: none;
   }
@@ -82,7 +82,7 @@
     content: "developer";
     animation: sequencePopup 12s linear infinite;
   }
-}
+}*/
 
 
 
