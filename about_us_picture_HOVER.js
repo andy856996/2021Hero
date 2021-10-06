@@ -48,7 +48,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $(".picture_H5").mouseover(function(){
-    $("#about_us_picture_5").text("蔡椿霳：瀺灂(可塑性高的，蘊藏有一定的能力) 陳漢成：活躍(一直在找東西) 劉祖弦：窮源竟委(要把所有要借的東西都要確認過一次) 李華薏：實事求是(資料要找到正確的) 黃琬瑄：量體裁衣(找到比較合適的東西)");
+    $("#about_us_picture_5").text("瀺灂 活躍 窮源竟委 實事求是 量體裁衣");
     $("#about_us_picture_5").css("fontSize", "0.7rem");
   });
   $(".picture_H5").mouseout(function(){
