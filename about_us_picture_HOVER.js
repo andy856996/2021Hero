@@ -17,6 +17,7 @@ if(isMobile()){
   alert("您使用手機瀏覽。");
 }else{
   alert("您使用電腦瀏覽。");
+  $(".about_us_picture_p_display").css("display", "none");
   $(document).ready(function(){
   $(".picture_H1").mouseover(function(){
     $("#about_us_picture_1").text("默默記下精彩片刻 話少認真是我們做事的態度 潛伏於人群中，尋找值得留下的回憶");
