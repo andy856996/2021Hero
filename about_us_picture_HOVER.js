@@ -14,9 +14,9 @@ function isMobile() {
 
 }
 if(isMobile()){
-  alert("您使用手機瀏覽。");
+  // alert("您使用手機瀏覽。");
 }else{
-  alert("您使用電腦瀏覽。");
+  // alert("您使用電腦瀏覽。");
   $(".about_us_picture_p_display").css("display", "none");
   $(document).ready(function(){
   $(".picture_H1").mouseover(function(){
