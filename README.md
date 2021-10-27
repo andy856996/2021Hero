@@ -5,3 +5,8 @@ National Taitung University
 # [CSIE](https://wcsie.nttu.edu.tw/) X [IM](https://isms.nttu.edu.tw/) X [IPGIT](https://git.nttu.edu.tw/) HERO
 ## source
 here is the source code of the web page
+=============
+**Developer**
+=============
+主開發者:丁澤安 Ze-An Ding
+共同開發者:葉書亞 Shu-Ya Ye
